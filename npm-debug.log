@@ -1,0 +1,618 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'express-handlebars',
+1 verbose cli   'sequelize',
+1 verbose cli   'mysql',
+1 verbose cli   'body-parser',
+1 verbose cli   'bcryptsjs',
+1 verbose cli   '--save' ]
+2 info using npm@2.14.7
+3 info using node@v4.2.1
+4 verbose install initial load of C:\Users\cbmoa\documents\rcbc\week15\myclassapp\package.json
+5 warn package.json myclassapp@1.0.0 No repository field.
+6 warn package.json myclassapp@1.0.0 No README data
+7 verbose installManyTop reading scoped package data from C:\Users\cbmoa\documents\rcbc\week15\myclassapp\node_modules\express\package.json
+8 verbose readDependencies loading dependencies from C:\Users\cbmoa\documents\rcbc\week15\myclassapp\package.json
+9 silly cache add args [ 'express-handlebars', null ]
+10 verbose cache add spec express-handlebars
+11 silly cache add args [ 'sequelize', null ]
+12 verbose cache add spec sequelize
+13 silly cache add args [ 'mysql', null ]
+14 verbose cache add spec mysql
+15 silly cache add args [ 'body-parser', null ]
+16 verbose cache add spec body-parser
+17 silly cache add args [ 'bcryptsjs', null ]
+18 verbose cache add spec bcryptsjs
+19 silly cache add parsed spec Result {
+19 silly cache add   raw: 'express-handlebars',
+19 silly cache add   scope: null,
+19 silly cache add   name: 'express-handlebars',
+19 silly cache add   rawSpec: '',
+19 silly cache add   spec: '*',
+19 silly cache add   type: 'range' }
+20 silly addNamed express-handlebars@*
+21 verbose addNamed "*" is a valid semver range for express-handlebars
+22 silly addNameRange { name: 'express-handlebars', range: '*', hasData: false }
+23 silly mapToRegistry name express-handlebars
+24 silly mapToRegistry using default registry
+25 silly mapToRegistry registry https://registry.npmjs.org/
+26 silly mapToRegistry uri https://registry.npmjs.org/express-handlebars
+27 verbose addNameRange registry:https://registry.npmjs.org/express-handlebars not in flight; fetching
+28 silly cache add parsed spec Result {
+28 silly cache add   raw: 'sequelize',
+28 silly cache add   scope: null,
+28 silly cache add   name: 'sequelize',
+28 silly cache add   rawSpec: '',
+28 silly cache add   spec: '*',
+28 silly cache add   type: 'range' }
+29 silly addNamed sequelize@*
+30 verbose addNamed "*" is a valid semver range for sequelize
+31 silly addNameRange { name: 'sequelize', range: '*', hasData: false }
+32 silly mapToRegistry name sequelize
+33 silly mapToRegistry using default registry
+34 silly mapToRegistry registry https://registry.npmjs.org/
+35 silly mapToRegistry uri https://registry.npmjs.org/sequelize
+36 verbose addNameRange registry:https://registry.npmjs.org/sequelize not in flight; fetching
+37 silly cache add parsed spec Result {
+37 silly cache add   raw: 'mysql',
+37 silly cache add   scope: null,
+37 silly cache add   name: 'mysql',
+37 silly cache add   rawSpec: '',
+37 silly cache add   spec: '*',
+37 silly cache add   type: 'range' }
+38 silly addNamed mysql@*
+39 verbose addNamed "*" is a valid semver range for mysql
+40 silly addNameRange { name: 'mysql', range: '*', hasData: false }
+41 silly mapToRegistry name mysql
+42 silly mapToRegistry using default registry
+43 silly mapToRegistry registry https://registry.npmjs.org/
+44 silly mapToRegistry uri https://registry.npmjs.org/mysql
+45 verbose addNameRange registry:https://registry.npmjs.org/mysql not in flight; fetching
+46 silly cache add parsed spec Result {
+46 silly cache add   raw: 'body-parser',
+46 silly cache add   scope: null,
+46 silly cache add   name: 'body-parser',
+46 silly cache add   rawSpec: '',
+46 silly cache add   spec: '*',
+46 silly cache add   type: 'range' }
+47 silly addNamed body-parser@*
+48 verbose addNamed "*" is a valid semver range for body-parser
+49 silly addNameRange { name: 'body-parser', range: '*', hasData: false }
+50 silly mapToRegistry name body-parser
+51 silly mapToRegistry using default registry
+52 silly mapToRegistry registry https://registry.npmjs.org/
+53 silly mapToRegistry uri https://registry.npmjs.org/body-parser
+54 verbose addNameRange registry:https://registry.npmjs.org/body-parser not in flight; fetching
+55 silly cache add parsed spec Result {
+55 silly cache add   raw: 'bcryptsjs',
+55 silly cache add   scope: null,
+55 silly cache add   name: 'bcryptsjs',
+55 silly cache add   rawSpec: '',
+55 silly cache add   spec: '*',
+55 silly cache add   type: 'range' }
+56 silly addNamed bcryptsjs@*
+57 verbose addNamed "*" is a valid semver range for bcryptsjs
+58 silly addNameRange { name: 'bcryptsjs', range: '*', hasData: false }
+59 silly mapToRegistry name bcryptsjs
+60 silly mapToRegistry using default registry
+61 silly mapToRegistry registry https://registry.npmjs.org/
+62 silly mapToRegistry uri https://registry.npmjs.org/bcryptsjs
+63 verbose addNameRange registry:https://registry.npmjs.org/bcryptsjs not in flight; fetching
+64 verbose request uri https://registry.npmjs.org/bcryptsjs
+65 verbose request no auth needed
+66 info attempt registry request try #1 at 11:23:14 AM
+67 verbose request id ef96febff08e10fe
+68 http request GET https://registry.npmjs.org/bcryptsjs
+69 verbose request uri https://registry.npmjs.org/express-handlebars
+70 verbose request no auth needed
+71 info attempt registry request try #1 at 11:23:14 AM
+72 verbose etag "AVQIZ0FZKGBPWMCFSRD8LGAHG"
+73 http request GET https://registry.npmjs.org/express-handlebars
+74 verbose request uri https://registry.npmjs.org/body-parser
+75 verbose request no auth needed
+76 info attempt registry request try #1 at 11:23:14 AM
+77 verbose etag "AW0K2DVG58ZDXTD2DF9Z81TGR"
+78 http request GET https://registry.npmjs.org/body-parser
+79 verbose request uri https://registry.npmjs.org/mysql
+80 verbose request no auth needed
+81 info attempt registry request try #1 at 11:23:14 AM
+82 verbose etag "3M0TTOS4VKRI3EYAIB8MBQAB8"
+83 http request GET https://registry.npmjs.org/mysql
+84 verbose request uri https://registry.npmjs.org/sequelize
+85 verbose request no auth needed
+86 info attempt registry request try #1 at 11:23:14 AM
+87 verbose etag "5XGEJY4EU8D1NSBY79FDEJIJ7"
+88 http request GET https://registry.npmjs.org/sequelize
+89 http 304 https://registry.npmjs.org/mysql
+90 verbose headers { date: 'Fri, 19 Feb 2016 16:23:16 GMT',
+90 verbose headers   via: '1.1 varnish',
+90 verbose headers   'cache-control': 'max-age=300',
+90 verbose headers   etag: '"3M0TTOS4VKRI3EYAIB8MBQAB8"',
+90 verbose headers   age: '295',
+90 verbose headers   connection: 'keep-alive',
+90 verbose headers   'x-served-by': 'cache-iad2143-IAD',
+90 verbose headers   'x-cache': 'HIT',
+90 verbose headers   'x-cache-hits': '2',
+90 verbose headers   'x-timer': 'S1455898996.837660,VS0,VE0',
+90 verbose headers   vary: 'Accept' }
+91 silly get cb [ 304,
+91 silly get   { date: 'Fri, 19 Feb 2016 16:23:16 GMT',
+91 silly get     via: '1.1 varnish',
+91 silly get     'cache-control': 'max-age=300',
+91 silly get     etag: '"3M0TTOS4VKRI3EYAIB8MBQAB8"',
+91 silly get     age: '295',
+91 silly get     connection: 'keep-alive',
+91 silly get     'x-served-by': 'cache-iad2143-IAD',
+91 silly get     'x-cache': 'HIT',
+91 silly get     'x-cache-hits': '2',
+91 silly get     'x-timer': 'S1455898996.837660,VS0,VE0',
+91 silly get     vary: 'Accept' } ]
+92 verbose etag https://registry.npmjs.org/mysql from cache
+93 verbose get saving mysql to C:\Users\cbmoa\AppData\Roaming\npm-cache\registry.npmjs.org\mysql\.cache.json
+94 silly addNameRange number 2 { name: 'mysql', range: '*', hasData: true }
+95 silly addNameRange versions [ 'mysql',
+95 silly addNameRange   [ '0.1.0',
+95 silly addNameRange     '0.2.0',
+95 silly addNameRange     '0.3.0',
+95 silly addNameRange     '0.4.0',
+95 silly addNameRange     '0.5.0',
+95 silly addNameRange     '0.6.0',
+95 silly addNameRange     '0.7.0',
+95 silly addNameRange     '0.8.0',
+95 silly addNameRange     '0.9.0',
+95 silly addNameRange     '0.9.1',
+95 silly addNameRange     '0.9.2',
+95 silly addNameRange     '0.9.3',
+95 silly addNameRange     '0.9.4',
+95 silly addNameRange     '0.9.5',
+95 silly addNameRange     '0.9.6',
+95 silly addNameRange     '2.0.0-alpha',
+95 silly addNameRange     '2.0.0-alpha2',
+95 silly addNameRange     '2.0.0-alpha3',
+95 silly addNameRange     '2.0.0-alpha4',
+95 silly addNameRange     '2.0.0-alpha5',
+95 silly addNameRange     '2.0.0-alpha6',
+95 silly addNameRange     '2.0.0-alpha7',
+95 silly addNameRange     '2.0.0-alpha8',
+95 silly addNameRange     '2.0.0-alpha9',
+95 silly addNameRange     '2.0.0-rc1',
+95 silly addNameRange     '2.0.0-rc2',
+95 silly addNameRange     '2.0.0',
+95 silly addNameRange     '2.0.1',
+95 silly addNameRange     '2.1.0',
+95 silly addNameRange     '2.1.1',
+95 silly addNameRange     '2.2.0',
+95 silly addNameRange     '2.3.0',
+95 silly addNameRange     '2.3.1',
+95 silly addNameRange     '2.3.2',
+95 silly addNameRange     '2.4.0',
+95 silly addNameRange     '2.4.1',
+95 silly addNameRange     '2.4.2',
+95 silly addNameRange     '2.4.3',
+95 silly addNameRange     '2.5.0',
+95 silly addNameRange     '2.5.1',
+95 silly addNameRange     '2.5.2',
+95 silly addNameRange     '2.5.3',
+95 silly addNameRange     '2.5.4',
+95 silly addNameRange     '2.5.5',
+95 silly addNameRange     '2.6.0',
+95 silly addNameRange     '2.6.1',
+95 silly addNameRange     '2.6.2',
+95 silly addNameRange     '2.7.0',
+95 silly addNameRange     '2.8.0',
+95 silly addNameRange     '2.9.0',
+95 silly addNameRange     '2.10.0',
+95 silly addNameRange     '2.10.1',
+95 silly addNameRange     '2.10.2' ] ]
+96 silly addNamed mysql@2.10.2
+97 verbose addNamed "2.10.2" is a plain semver version for mysql
+98 silly cache afterAdd mysql@2.10.2
+99 verbose afterAdd C:\Users\cbmoa\AppData\Roaming\npm-cache\mysql\2.10.2\package\package.json not in flight; writing
+100 verbose afterAdd C:\Users\cbmoa\AppData\Roaming\npm-cache\mysql\2.10.2\package\package.json written
+101 http 404 https://registry.npmjs.org/bcryptsjs
+102 verbose headers { 'content-type': 'application/json',
+102 verbose headers   'cache-control': 'max-age=0',
+102 verbose headers   'content-length': '2',
+102 verbose headers   'accept-ranges': 'bytes',
+102 verbose headers   date: 'Fri, 19 Feb 2016 16:23:16 GMT',
+102 verbose headers   via: '1.1 varnish',
+102 verbose headers   age: '0',
+102 verbose headers   connection: 'keep-alive',
+102 verbose headers   'x-served-by': 'cache-iad2132-IAD',
+102 verbose headers   'x-cache': 'MISS',
+102 verbose headers   'x-cache-hits': '0',
+102 verbose headers   'x-timer': 'S1455898996.833308,VS0,VE103' }
+103 silly get cb [ 404,
+103 silly get   { 'content-type': 'application/json',
+103 silly get     'cache-control': 'max-age=0',
+103 silly get     'content-length': '2',
+103 silly get     'accept-ranges': 'bytes',
+103 silly get     date: 'Fri, 19 Feb 2016 16:23:16 GMT',
+103 silly get     via: '1.1 varnish',
+103 silly get     age: '0',
+103 silly get     connection: 'keep-alive',
+103 silly get     'x-served-by': 'cache-iad2132-IAD',
+103 silly get     'x-cache': 'MISS',
+103 silly get     'x-cache-hits': '0',
+103 silly get     'x-timer': 'S1455898996.833308,VS0,VE103' } ]
+104 http 304 https://registry.npmjs.org/express-handlebars
+105 verbose headers { date: 'Fri, 19 Feb 2016 16:23:16 GMT',
+105 verbose headers   via: '1.1 varnish',
+105 verbose headers   'cache-control': 'max-age=300',
+105 verbose headers   etag: '"AVQIZ0FZKGBPWMCFSRD8LGAHG"',
+105 verbose headers   age: '0',
+105 verbose headers   connection: 'keep-alive',
+105 verbose headers   'x-served-by': 'cache-iad2132-IAD',
+105 verbose headers   'x-cache': 'HIT',
+105 verbose headers   'x-cache-hits': '1',
+105 verbose headers   'x-timer': 'S1455898996.925817,VS0,VE70',
+105 verbose headers   vary: 'Accept' }
+106 silly get cb [ 304,
+106 silly get   { date: 'Fri, 19 Feb 2016 16:23:16 GMT',
+106 silly get     via: '1.1 varnish',
+106 silly get     'cache-control': 'max-age=300',
+106 silly get     etag: '"AVQIZ0FZKGBPWMCFSRD8LGAHG"',
+106 silly get     age: '0',
+106 silly get     connection: 'keep-alive',
+106 silly get     'x-served-by': 'cache-iad2132-IAD',
+106 silly get     'x-cache': 'HIT',
+106 silly get     'x-cache-hits': '1',
+106 silly get     'x-timer': 'S1455898996.925817,VS0,VE70',
+106 silly get     vary: 'Accept' } ]
+107 verbose etag https://registry.npmjs.org/express-handlebars from cache
+108 verbose get saving express-handlebars to C:\Users\cbmoa\AppData\Roaming\npm-cache\registry.npmjs.org\express-handlebars\.cache.json
+109 silly addNameRange number 2 { name: 'express-handlebars', range: '*', hasData: true }
+110 silly addNameRange versions [ 'express-handlebars',
+110 silly addNameRange   [ '0.0.1',
+110 silly addNameRange     '0.0.2',
+110 silly addNameRange     '1.0.0-rc-1',
+110 silly addNameRange     '1.0.0-rc-2',
+110 silly addNameRange     '1.0.0',
+110 silly addNameRange     '1.0.1',
+110 silly addNameRange     '1.0.2',
+110 silly addNameRange     '1.0.3',
+110 silly addNameRange     '1.1.0',
+110 silly addNameRange     '1.2.0',
+110 silly addNameRange     '1.2.1',
+110 silly addNameRange     '1.2.2',
+110 silly addNameRange     '2.0.0',
+110 silly addNameRange     '2.0.1',
+110 silly addNameRange     '3.0.0' ] ]
+111 silly addNamed express-handlebars@3.0.0
+112 verbose addNamed "3.0.0" is a plain semver version for express-handlebars
+113 silly cache afterAdd express-handlebars@3.0.0
+114 verbose afterAdd C:\Users\cbmoa\AppData\Roaming\npm-cache\express-handlebars\3.0.0\package\package.json not in flight; writing
+115 verbose afterAdd C:\Users\cbmoa\AppData\Roaming\npm-cache\express-handlebars\3.0.0\package\package.json written
+116 http 200 https://registry.npmjs.org/sequelize
+117 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+117 verbose headers   etag: '"13WG40D42LAPNMSHW705HG26I"',
+117 verbose headers   'content-type': 'application/json',
+117 verbose headers   'cache-control': 'max-age=300',
+117 verbose headers   'content-length': '316502',
+117 verbose headers   'accept-ranges': 'bytes',
+117 verbose headers   date: 'Fri, 19 Feb 2016 16:23:16 GMT',
+117 verbose headers   via: '1.1 varnish',
+117 verbose headers   age: '281',
+117 verbose headers   connection: 'keep-alive',
+117 verbose headers   'x-served-by': 'cache-iad2140-IAD',
+117 verbose headers   'x-cache': 'HIT',
+117 verbose headers   'x-cache-hits': '1',
+117 verbose headers   'x-timer': 'S1455898996.841189,VS0,VE0',
+117 verbose headers   vary: 'Accept' }
+118 silly get cb [ 200,
+118 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+118 silly get     etag: '"13WG40D42LAPNMSHW705HG26I"',
+118 silly get     'content-type': 'application/json',
+118 silly get     'cache-control': 'max-age=300',
+118 silly get     'content-length': '316502',
+118 silly get     'accept-ranges': 'bytes',
+118 silly get     date: 'Fri, 19 Feb 2016 16:23:16 GMT',
+118 silly get     via: '1.1 varnish',
+118 silly get     age: '281',
+118 silly get     connection: 'keep-alive',
+118 silly get     'x-served-by': 'cache-iad2140-IAD',
+118 silly get     'x-cache': 'HIT',
+118 silly get     'x-cache-hits': '1',
+118 silly get     'x-timer': 'S1455898996.841189,VS0,VE0',
+118 silly get     vary: 'Accept' } ]
+119 verbose get saving sequelize to C:\Users\cbmoa\AppData\Roaming\npm-cache\registry.npmjs.org\sequelize\.cache.json
+120 http 200 https://registry.npmjs.org/body-parser
+121 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+121 verbose headers   etag: '"740STETV8CYU91KD8VPEM5T36"',
+121 verbose headers   'content-type': 'application/json',
+121 verbose headers   'cache-control': 'max-age=300',
+121 verbose headers   'content-length': '115385',
+121 verbose headers   'accept-ranges': 'bytes',
+121 verbose headers   date: 'Fri, 19 Feb 2016 16:23:16 GMT',
+121 verbose headers   via: '1.1 varnish',
+121 verbose headers   age: '132',
+121 verbose headers   connection: 'keep-alive',
+121 verbose headers   'x-served-by': 'cache-iad2141-IAD',
+121 verbose headers   'x-cache': 'HIT',
+121 verbose headers   'x-cache-hits': '5',
+121 verbose headers   'x-timer': 'S1455898996.857238,VS0,VE0',
+121 verbose headers   vary: 'Accept' }
+122 silly get cb [ 200,
+122 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+122 silly get     etag: '"740STETV8CYU91KD8VPEM5T36"',
+122 silly get     'content-type': 'application/json',
+122 silly get     'cache-control': 'max-age=300',
+122 silly get     'content-length': '115385',
+122 silly get     'accept-ranges': 'bytes',
+122 silly get     date: 'Fri, 19 Feb 2016 16:23:16 GMT',
+122 silly get     via: '1.1 varnish',
+122 silly get     age: '132',
+122 silly get     connection: 'keep-alive',
+122 silly get     'x-served-by': 'cache-iad2141-IAD',
+122 silly get     'x-cache': 'HIT',
+122 silly get     'x-cache-hits': '5',
+122 silly get     'x-timer': 'S1455898996.857238,VS0,VE0',
+122 silly get     vary: 'Accept' } ]
+123 verbose get saving body-parser to C:\Users\cbmoa\AppData\Roaming\npm-cache\registry.npmjs.org\body-parser\.cache.json
+124 silly addNameRange number 2 { name: 'sequelize', range: '*', hasData: true }
+125 silly addNameRange versions [ 'sequelize',
+125 silly addNameRange   [ '0.2.2',
+125 silly addNameRange     '0.2.3',
+125 silly addNameRange     '0.2.4',
+125 silly addNameRange     '0.2.5',
+125 silly addNameRange     '0.2.6',
+125 silly addNameRange     '0.3.0',
+125 silly addNameRange     '0.4.0',
+125 silly addNameRange     '0.4.1',
+125 silly addNameRange     '0.4.2',
+125 silly addNameRange     '0.4.3',
+125 silly addNameRange     '1.0.0',
+125 silly addNameRange     '1.0.1',
+125 silly addNameRange     '1.0.2',
+125 silly addNameRange     '1.1.0',
+125 silly addNameRange     '1.1.1',
+125 silly addNameRange     '1.1.2',
+125 silly addNameRange     '1.1.3',
+125 silly addNameRange     '1.1.4',
+125 silly addNameRange     '1.2.0',
+125 silly addNameRange     '1.2.1',
+125 silly addNameRange     '1.3.0',
+125 silly addNameRange     '1.3.1',
+125 silly addNameRange     '1.3.2',
+125 silly addNameRange     '1.3.3',
+125 silly addNameRange     '1.3.4',
+125 silly addNameRange     '1.3.5',
+125 silly addNameRange     '1.3.6',
+125 silly addNameRange     '1.3.7',
+125 silly addNameRange     '1.4.0',
+125 silly addNameRange     '1.4.1',
+125 silly addNameRange     '1.5.0-alpha',
+125 silly addNameRange     '1.5.0-beta',
+125 silly addNameRange     '1.5.0-beta-2',
+125 silly addNameRange     '1.5.0',
+125 silly addNameRange     '1.6.0-alpha-1',
+125 silly addNameRange     '1.6.0-alpha-2',
+125 silly addNameRange     '1.6.0-alpha-3',
+125 silly addNameRange     '1.6.0-beta-1',
+125 silly addNameRange     '1.6.0-beta-2',
+125 silly addNameRange     '1.6.0-beta-3',
+125 silly addNameRange     '1.6.0-beta4',
+125 silly addNameRange     '1.6.0',
+125 silly addNameRange     '1.7.0-alpha1',
+125 silly addNameRange     '1.7.0-alpha2',
+125 silly addNameRange     '2.0.0-alpha1',
+125 silly addNameRange     '2.0.0-alpha2',
+125 silly addNameRange     '1.7.0-alpha3',
+125 silly addNameRange     '2.0.0-alpha3',
+125 silly addNameRange     '1.7.0-beta.0',
+125 silly addNameRange     '2.0.0-beta.0',
+125 silly addNameRange     '1.7.0-beta.1',
+125 silly addNameRange     '2.0.0-beta.1',
+125 silly addNameRange     '1.7.0-beta.2',
+125 silly addNameRange     '2.0.0-beta.2',
+125 silly addNameRange     '1.7.0-beta.3b',
+125 silly addNameRange     '2.0.0-beta.3',
+125 silly addNameRange     '1.7.0-beta.4a',
+125 silly addNameRange     '2.0.0-beta.4',
+125 silly addNameRange     '1.7.0-beta.5',
+125 silly addNameRange     '2.0.0-beta.5',
+125 silly addNameRange     '1.7.0-beta6',
+125 silly addNameRange     '2.0.0-beta.6',
+125 silly addNameRange     '1.7.0-beta7',
+125 silly addNameRange     '2.0.0-beta.7',
+125 silly addNameRange     '2.0.0-beta.8',
+125 silly addNameRange     '1.7.0-beta8',
+125 silly addNameRange     '1.7.0-rc1',
+125 silly addNameRange     '2.0.0-dev1',
+125 silly addNameRange     '1.7.0-rc2',
+125 silly addNameRange     '2.0.0-dev2',
+125 silly addNameRange     '1.7.0-rc3',
+125 silly addNameRange     '2.0.0-dev3',
+125 silly addNameRange     '1.7.0-rc4',
+125 silly addNameRange     '2.0.0-dev4',
+125 silly addNameRange     '2.0.0-dev5',
+125 silly addNameRange     '1.7.0-rc5',
+125 silly addNameRange     '1.7.0-rc6',
+125 silly addNameRange     '2.0.0-dev6',
+125 silly addNameRange     '2.0.0-dev7',
+125 silly addNameRange     '1.7.0-rc7',
+125 silly addNameRange     '2.0.0-dev8',
+125 silly addNameRange     '1.7.0-rc8',
+125 silly addNameRange     '1.7.0-rc9',
+125 silly addNameRange     '2.0.0-dev9',
+125 silly addNameRange     '2.0.0-dev10',
+125 silly addNameRange     '1.7.0',
+125 silly addNameRange     '1.7.1',
+125 silly addNameRange     '1.7.2',
+125 silly addNameRange     '1.7.3',
+125 silly addNameRange     '2.0.0-dev11',
+125 silly addNameRange     '1.7.4',
+125 silly addNameRange     '1.7.5',
+125 silly addNameRange     '1.7.7',
+125 silly addNameRange     '1.7.8',
+125 silly addNameRange     '1.7.9',
+125 silly addNameRange     '2.0.0-dev12',
+125 silly addNameRange     '1.7.10',
+125 silly addNameRange     '2.0.0-dev13',
+125 silly addNameRange     '2.0.0-rc1',
+125 silly addNameRange     '2.0.0-rc2',
+125 silly addNameRange     '2.0.0-rc3',
+125 silly addNameRange     '2.0.0-rc4',
+125 silly addNameRange     '2.0.0-rc5',
+125 silly addNameRange     '2.0.0-rc6',
+125 silly addNameRange     '2.0.0-rc7',
+125 silly addNameRange     '2.0.0-rc8',
+125 silly addNameRange     '2.0.0',
+125 silly addNameRange     '2.0.1',
+125 silly addNameRange     '2.0.2',
+125 silly addNameRange     '2.0.3',
+125 silly addNameRange     '2.0.4',
+125 silly addNameRange     '2.0.5',
+125 silly addNameRange     '2.0.6',
+125 silly addNameRange     '2.1.0',
+125 silly addNameRange     '2.1.1',
+125 silly addNameRange     '2.1.2',
+125 silly addNameRange     '2.1.3',
+125 silly addNameRange     '3.0.0',
+125 silly addNameRange     '3.0.1',
+125 silly addNameRange     '3.1.0',
+125 silly addNameRange     '3.1.1',
+125 silly addNameRange     '3.2.0',
+125 silly addNameRange     '1.7.11',
+125 silly addNameRange     '3.3.0',
+125 silly addNameRange     '3.3.1',
+125 silly addNameRange     '3.3.2',
+125 silly addNameRange     '3.4.0',
+125 silly addNameRange     '3.4.1',
+125 silly addNameRange     '3.5.0',
+125 silly addNameRange     '3.5.1',
+125 silly addNameRange     '3.6.0',
+125 silly addNameRange     '3.7.0',
+125 silly addNameRange     '3.7.1',
+125 silly addNameRange     '3.8.0',
+125 silly addNameRange     '3.9.0',
+125 silly addNameRange     '3.10.0',
+125 silly addNameRange     '3.11.0',
+125 silly addNameRange     '3.12.0',
+125 silly addNameRange     '3.12.1',
+125 silly addNameRange     '3.12.2',
+125 silly addNameRange     '3.13.0',
+125 silly addNameRange     '3.14.0',
+125 silly addNameRange     '3.14.1',
+125 silly addNameRange     '3.14.2',
+125 silly addNameRange     '3.15.0',
+125 silly addNameRange     '3.15.1',
+125 silly addNameRange     '3.16.0',
+125 silly addNameRange     '3.17.0',
+125 silly addNameRange     '3.17.1',
+125 silly addNameRange     '3.17.2',
+125 silly addNameRange     '3.17.3',
+125 silly addNameRange     '3.18.0',
+125 silly addNameRange     '3.19.0',
+125 silly addNameRange     '3.19.1',
+125 silly addNameRange     '3.19.2',
+125 silly addNameRange     '3.19.3' ] ]
+126 silly addNamed sequelize@3.19.3
+127 verbose addNamed "3.19.3" is a plain semver version for sequelize
+128 silly mapToRegistry name sequelize
+129 silly mapToRegistry using default registry
+130 silly mapToRegistry registry https://registry.npmjs.org/
+131 silly mapToRegistry uri https://registry.npmjs.org/sequelize
+132 verbose addRemoteTarball https://registry.npmjs.org/sequelize/-/sequelize-3.19.3.tgz not in flight; adding
+133 verbose addRemoteTarball [ 'https://registry.npmjs.org/sequelize/-/sequelize-3.19.3.tgz',
+133 verbose addRemoteTarball   '2a07fbb955964547eee208d7cf0de1c58e0c12d5' ]
+134 silly addNameRange number 2 { name: 'body-parser', range: '*', hasData: true }
+135 silly addNameRange versions [ 'body-parser',
+135 silly addNameRange   [ '1.0.0',
+135 silly addNameRange     '1.0.1',
+135 silly addNameRange     '1.0.2',
+135 silly addNameRange     '1.1.0',
+135 silly addNameRange     '1.1.1',
+135 silly addNameRange     '1.1.2',
+135 silly addNameRange     '1.2.0',
+135 silly addNameRange     '1.2.1',
+135 silly addNameRange     '1.2.2',
+135 silly addNameRange     '1.3.0',
+135 silly addNameRange     '1.3.1',
+135 silly addNameRange     '1.4.0',
+135 silly addNameRange     '1.4.1',
+135 silly addNameRange     '1.4.2',
+135 silly addNameRange     '1.4.3',
+135 silly addNameRange     '1.5.0',
+135 silly addNameRange     '1.5.1',
+135 silly addNameRange     '1.5.2',
+135 silly addNameRange     '1.6.0',
+135 silly addNameRange     '1.6.1',
+135 silly addNameRange     '1.6.2',
+135 silly addNameRange     '1.6.3',
+135 silly addNameRange     '1.6.4',
+135 silly addNameRange     '1.6.5',
+135 silly addNameRange     '1.6.6',
+135 silly addNameRange     '1.6.7',
+135 silly addNameRange     '1.7.0',
+135 silly addNameRange     '1.8.0',
+135 silly addNameRange     '1.8.1',
+135 silly addNameRange     '1.8.2',
+135 silly addNameRange     '1.8.3',
+135 silly addNameRange     '1.8.4',
+135 silly addNameRange     '1.9.0',
+135 silly addNameRange     '1.9.1',
+135 silly addNameRange     '1.9.2',
+135 silly addNameRange     '1.9.3',
+135 silly addNameRange     '1.10.0',
+135 silly addNameRange     '1.10.1',
+135 silly addNameRange     '1.10.2',
+135 silly addNameRange     '1.11.0',
+135 silly addNameRange     '1.12.0',
+135 silly addNameRange     '1.12.1',
+135 silly addNameRange     '1.12.2',
+135 silly addNameRange     '1.12.3',
+135 silly addNameRange     '1.12.4',
+135 silly addNameRange     '1.13.0',
+135 silly addNameRange     '1.13.1',
+135 silly addNameRange     '1.13.2',
+135 silly addNameRange     '1.13.3',
+135 silly addNameRange     '1.14.0',
+135 silly addNameRange     '1.14.1',
+135 silly addNameRange     '1.14.2',
+135 silly addNameRange     '1.15.0' ] ]
+136 silly addNamed body-parser@1.15.0
+137 verbose addNamed "1.15.0" is a plain semver version for body-parser
+138 info retry fetch attempt 1 at 11:23:20 AM
+139 info attempt registry request try #1 at 11:23:20 AM
+140 http fetch GET https://registry.npmjs.org/sequelize/-/sequelize-3.19.3.tgz
+141 silly cache afterAdd body-parser@1.15.0
+142 verbose afterAdd C:\Users\cbmoa\AppData\Roaming\npm-cache\body-parser\1.15.0\package\package.json not in flight; writing
+143 verbose afterAdd C:\Users\cbmoa\AppData\Roaming\npm-cache\body-parser\1.15.0\package\package.json written
+144 http fetch 200 https://registry.npmjs.org/sequelize/-/sequelize-3.19.3.tgz
+145 silly fetchAndShaCheck shasum 2a07fbb955964547eee208d7cf0de1c58e0c12d5
+146 verbose addTmpTarball C:\Users\cbmoa\AppData\Local\Temp\npm-11088-5a7efa60\registry.npmjs.org\sequelize\-\sequelize-3.19.3.tgz not in flight; adding
+147 verbose addTmpTarball already have metadata; skipping unpack for sequelize@3.19.3
+148 silly cache afterAdd sequelize@3.19.3
+149 verbose afterAdd C:\Users\cbmoa\AppData\Roaming\npm-cache\sequelize\3.19.3\package\package.json not in flight; writing
+150 verbose afterAdd C:\Users\cbmoa\AppData\Roaming\npm-cache\sequelize\3.19.3\package\package.json written
+151 verbose stack Error: Registry returned 404 for GET on https://registry.npmjs.org/bcryptsjs
+151 verbose stack     at makeError (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:264:12)
+151 verbose stack     at CachingRegistryClient.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:242:14)
+151 verbose stack     at Request._callback (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:172:14)
+151 verbose stack     at Request.self.callback (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:198:22)
+151 verbose stack     at emitTwo (events.js:87:13)
+151 verbose stack     at Request.emit (events.js:172:7)
+151 verbose stack     at Request.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1063:14)
+151 verbose stack     at emitOne (events.js:82:20)
+151 verbose stack     at Request.emit (events.js:169:7)
+151 verbose stack     at IncomingMessage.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1009:12)
+152 verbose statusCode 404
+153 verbose pkgid bcryptsjs
+154 verbose cwd C:\Users\cbmoa\documents\rcbc\week15\myclassapp
+155 error Windows_NT 10.0.10586
+156 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "express-handlebars" "sequelize" "mysql" "body-parser" "bcryptsjs" "--save"
+157 error node v4.2.1
+158 error npm  v2.14.7
+159 error code E404
+160 error 404 Registry returned 404 for GET on https://registry.npmjs.org/bcryptsjs
+160 error 404
+160 error 404 'bcryptsjs' is not in the npm registry.
+160 error 404 You should bug the author to publish it (or use the name yourself!)
+160 error 404 It was specified as a dependency of 'myclassapp'
+160 error 404
+160 error 404 Note that you can also install from a
+160 error 404 tarball, folder, http url, or git url.
+161 verbose exit [ 1, true ]
