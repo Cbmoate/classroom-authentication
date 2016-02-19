@@ -1,0 +1,16 @@
+{
+  "name": "myclassapp",
+  "version": "1.0.0",
+  "description": "classroom app to work on authentication",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "authentication",
+    "RCB",
+    "homework"
+  ],
+  "author": "CB Moate",
+  "license": "ISC"
+}
